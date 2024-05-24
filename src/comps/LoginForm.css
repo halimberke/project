@@ -1,0 +1,163 @@
+.login-form-container {
+  background-color: #3b3f46;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-form {
+  background: #38a8c4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.form-input {
+  width: calc(60% - 10px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+.form-links {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.form-link {
+  margin: 0 10px;
+  color: #3498db;
+  text-decoration: none;
+}
+
+.form-link:hover {
+  text-decoration: underline;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #282c34; /* Bu satırı ekleyin veya güncelleyin */
+}
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; /* added */
+  background-color: #282c34;
+}
+
+.app-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.app-logo {
+  height: 200px;
+  margin-bottom: 1px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #61dafb;
+  margin: 10px 0;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+  letter-spacing: 1.5px;
+  transition: color 0.3s ease-in-out;
+}
+
+h1:hover {
+  color: #21a1f1;
+}
+
+.settings-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.settings-button img {
+  width: 30px;
+  height: 30px;
+}
+
+.settings-form {
+  margin-top: 20px;
+}
+
+.settings-form label {
+  margin-right: 10px;
+}
+
+.settings-form input {
+  width: 50px;
+  text-align: center;
+}
+
+.settings-form button {
+  margin-left: 10px;
+}
+
+
+.modal-body label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #000; 
+}
+
+.modal-body input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
